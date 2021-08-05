@@ -8,24 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <div class="heading">Enter your Birthday and lucky number</div>
-    </div>
-    <div class="notice">
-        <strong>Privacy Notice!</strong> We are not storing your data.
-    </div>
-    <div>
-        <div class="heading2">Enter your birthdate</div>
-        <input id="bDate" type="date">
-    </div>
-    <div>
-        <div class="heading2">Enter your lucky number</div>
-        <input id="luckyNum" type="number">
-        <button id="btn1">click </button>
-    </div>
-    <div id="outputDiv">
-
-    </div>
+    
+        <section class="top-container">
+            <h1 class="heading">Is Your Birthday Lucky?</h1>
+        </section>
+        <main>
+            <div class="middle-container">
+                <h2 class="heading1">Enter your Birthday and lucky number</h2>
+            </div>
+            <div class="notice">
+                <div>
+                    <strong>Privacy Notice!</strong> We are not storing your data.
+                    <button id="close-notice">X</button>
+                </div>
+            </div>
+            
+            <div>
+                <div class="heading2">Enter your birthdate</div>
+                <input id="bDate" type="date">
+            </div>
+            <div>
+                <div class="heading2">Enter your lucky number</div>
+                <input id="luckyNum" type="number">
+                <button id="btn1">click </button>
+            </div>
+            <div id="outputDiv">
+        
+            </div>
+    
+        </main>
+    
+    
+    
     
     <script src="app.js"></script>
 </body>

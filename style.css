@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    /* box-sizing: border-box; */
+    /* font-family: 'Dancing Script', cursive; */
+    color: #4A1C40;
+}
+body{
+    background-image: url(celebration.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+.top-container{
+    text-align: center;
+    
+    
+}
+.heading{
+    font-weight: bold;
+    font-size: 2.5rem;
+}   
+main{
+    text-align: center;
+}
+.notice{
+    width: fit-content;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    
+    background-color: #93C5FD;  
+}
