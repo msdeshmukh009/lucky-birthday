@@ -1,39 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+:root{
+    --font-color: #FFF338;
+    --back-color: #7C83FD;
+}
 *{
     /* box-sizing: border-box; */
-    /* font-family: 'Dancing Script', cursive; */
-    color: #4A1C40;
+    font-family: 'Oswald', sans-serif;
+    color:var(--font-color) 
 }
 body{
-    background-image: url(celebration.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+   background-color: var(--back-color);
+   
     margin: 0;
-}
+} 
 
 
 .top-container{
-    text-align: center;
-    
-    
+    text-align: center;  
 }
+
 .heading{
     font-weight: bold;
     font-size: 2.5rem;
-}   
+} 
+.heading1{
+    font-size: x-large;
+}  
+.heading2{
+    font-size: larger;
+}
 main{
     text-align: center;
+    /* width: 30%; */
+    margin: auto;
 }
 .notice{
     width: fit-content;
-    display: flex;
+     display: flex; /* read */
 
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    box-shadow: 0px 0px 5px 2px ;
+    padding: 0.75rem;
     margin: 1rem auto;
-    
-    background-color: #93C5FD;  
+    border-radius: 0.5rem;
+    background-color: #F14668;  
+}
+#close-notice{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.75rem;
+    margin-left: 0.8rem;
+}
+label{
+    display: block;
+}
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    height: 2.5rem;
+    width: 12.5rem;
+    /* padding: 00.5rem; */
+    border: none;
+    font-size: 1rem; 
+    color: black;
+}
+#btn1{
+    background-color: transparent;
+    color: var(--primary-color);
+    border-width: medium;
+    padding: 0.5rem;
+    border-color: var(--font-color);
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+/* lists */
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    margin: 0rem 0.5rem;
+}
+/* hr */
+hr{
+        border: dotted  6px;
+        border-bottom: none;
+        width: 4rem;
+        margin:2rem auto;
+        border-color: var(--font-color);
+}
+/* footer */
+.footer {
+    padding: 4rem 1rem;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    color: var(--yellow);
+    text-align: center;
+}
+
+.footer-heading {
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul {
+    padding-inline-start: 0px;
+}
+.footer-link {
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin:0.5rem 1rem ;
 }

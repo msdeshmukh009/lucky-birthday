@@ -14,7 +14,8 @@
         </section>
         <main>
             <div class="middle-container">
-                <h2 class="heading1">Enter your Birthday and lucky number</h2>
+                <label class="heading1">Enter Your Birthdate and lucky number to continue...
+                </label>
             </div>
             <div class="notice">
                 <div>
@@ -22,21 +23,40 @@
                     <button id="close-notice">X</button>
                 </div>
             </div>
-            
-            <div>
-                <div class="heading2">Enter your birthdate</div>
-                <input id="bDate" type="date">
-            </div>
-            <div>
-                <div class="heading2">Enter your lucky number</div>
-                <input id="luckyNum" type="number">
-                <button id="btn1">click </button>
-            </div>
+            <form id="form" >
+                <label for="dob" class="heading2">Enter your birthdate</label>
+                <input id="bDate" type="date" required >
+                <label for="lucky-num" class="heading2">Enter your lucky number</label >
+                <input id="luckyNum" type="number" min="1" step="1" required >
+                <button id="btn1" type="submit" >Check Luck </button>
+            </form>
+           
             <div id="outputDiv">
-        
             </div>
     
         </main>
+        
+        <footer class="footer">
+            <hr>
+            <ul class="list-nobullet">
+                <li class="list-item-inline">
+                    <a href="https://github.com/msdeshmukh009" ><img src="github.png" border="0"></a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="https://twitter.com/wayiambot"><img src="twitter.png" border="0"></a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="mailto:deshmukhmahesh009@gmail.com"><img src="gmail.png" border="0"></a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="https://www.linkedin.com/in/mahesh-deshmukh-413830185/"><img src="linkedin.png" border="0"></a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="https://maheshdeshmukh.netlify.app/"><img src="briefcase.png" border="0"></a>
+
+                </li> 
+            </ul>
+        </footer>
     
     
     
