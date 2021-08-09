@@ -36,7 +36,7 @@ form.addEventListener('submit', (e)=>{
         outputDiv.innerHTML = outputPass;
     }
     else{
-        outputDiv.innerHTML = outputFail
+        outputDiv.innerHTML = outputFail;
     }
 })
 
